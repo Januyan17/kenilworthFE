@@ -1,11 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:dob_input_field/dob_input_field.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:interview/Helpers/Colors/colors.dart';
-import 'package:interview/Helpers/Controllers/AuthControllers/AuthControllers.dart';
 import 'package:interview/Helpers/Controllers/CommonController/CommonController.dart';
 import 'package:interview/Helpers/Loader/Loader.dart';
 import 'package:interview/Helpers/Variables/Variable.dart';

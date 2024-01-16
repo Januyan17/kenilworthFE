@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:dob_input_field/dob_input_field.dart';
 import 'package:get/get.dart';
 import 'package:interview/Helpers/Controllers/AuthControllers/AuthControllers.dart';
 
