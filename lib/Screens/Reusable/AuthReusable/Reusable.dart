@@ -89,8 +89,8 @@ class DateOfBirth extends StatelessWidget {
     final DateTime? picked = await showDatePicker(
       context: context,
       initialDate: selectedDate,
-      firstDate: DateTime(2000),
-      lastDate: DateTime(2024),
+      firstDate: DateTime(1900),
+      lastDate: DateTime(2101),
     );
 
     if (picked != null && picked != selectedDate) {
