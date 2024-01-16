@@ -19,6 +19,12 @@ class ReusableAuthTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      onChanged: (value) {
+        // print(value);
+        if (value.isNotEmpty) {
+          print("object");
+        }
+      },
       controller: controller,
       keyboardType: type,
       decoration: InputDecoration(
